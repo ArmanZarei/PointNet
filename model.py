@@ -94,3 +94,20 @@ class PointNet(nn.Module):
     out = self.logsoftmax(self.fc3(out))
 
     return out, mat_3x3, mat_64x64
+     
+
+# ------------------------ Loss Function ------------------------ #
+def pointnet_loss(outputs, labels, mat_3x3, mat_64x64, alpha=0.0001):
+  criterion = torch.nn.NLLLoss()
+  
+  batch_size = outputs.size(0)
+  eye_3x3 = torch.eye(3, requires_grad=True).repeat(batch_size, 1, 1)
+  eye_64x64 = torch.eye(64, requires_grad=True).repeat(batch_size, 1, 1)
+  if outputs.is_cuda:
+    eye_3x3 = eye_3x3.cuda()
+    eye_64x64 = eye_64x64.cuda()
+  
+  diff_3x3 = eye_3x3 - torch.bmm(mat_3x3, mat_3x3.transpose(1, 2))
+  diff_64x64 = eye_64x64 - torch.bmm(mat_64x64, mat_64x64.transpose(1, 2))
+
+  return criterion(outputs, labels) + alpha * (torch.norm(diff_3x3) + torch.norm(diff_64x64)) / float(batch_size)
