@@ -8,4 +8,4 @@
         - Windows: `.env/Scripts/activate.bat`
 - Installing requirements: `pip install -r requirements.txt`
 - Training the model: `python3 main.py`
-    - Or you can run it in background: `nohup python3 main.py > output.log &`
+    - Or you can run it in the background: `nohup python3 main.py > output.log &`
