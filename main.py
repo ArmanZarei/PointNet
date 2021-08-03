@@ -79,6 +79,5 @@ for epoch in range(15):
     test_accuracy_arr.append(test_acc/len(test_dataloader))
   
     train_log(f'Epoch: {"{:2d}".format(epoch)} -> \t Train Loss: {"%.10f"%train_loss_arr[-1]} \t Test Loss: {"%.10f"%test_loss_arr[-1]} | Train Accuracy: {"%.4f"%train_accuracy_arr[-1]} \t Test Accuracy: {"%.4f"%test_accuracy_arr[-1]}')
-    break
 
 print("OK")
