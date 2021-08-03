@@ -22,3 +22,7 @@ def read_off(file):
   vertices = np.array([[float(s) for s in file.readline().strip().split(' ')] for i_vert in range(n_vertices)])
   faces = np.array([[int(s) for s in file.readline().strip().split(' ')][1:] for i_face in range(n_faces)])
   return vertices, faces
+
+def train_log(txt, delete_prev=False, file_path="TrainLog.txt"):
+  with open(file_path, 'w' if delete_prev else 'a') as f:
+    f.write(txt + "\n")
