@@ -1,7 +1,7 @@
 # PointNet Classification
 
 ## Results
-
+After training the models for `15` epochs:
 <table style="text-align: center;">
     <thead>
         <tr>
