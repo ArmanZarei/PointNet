@@ -5,7 +5,7 @@ from transformers import PointSampler, Normalize, RandomRotation, RandomNoise
 from torchvision import transforms
 from torch.utils.data import DataLoader
 from model import PointNet, pointnet_loss
-from utils import train_log
+from utils import train_log, save_training_process
 
 
 # ------------------------ Variables ------------------------ #
@@ -41,7 +41,7 @@ test_dataloader = DataLoader(dataset=test_dataset, batch_size=64)
 
 # ------------------------ Training ------------------------ #
 model = PointNet().to(device)
-optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
+optimizer = torch.optim.Adam(model.parameters(), lr=0.0005)
 
 train_log(f'Device: {device}\n{"-"*30}', delete_prev=True)
 
@@ -80,5 +80,7 @@ for epoch in range(15):
   
     train_log(f'Epoch: {"{:2d}".format(epoch)} -> \t Train Loss: {"%.10f"%train_loss_arr[-1]} \t Test Loss: {"%.10f"%test_loss_arr[-1]} | Train Accuracy: {"%.4f"%train_accuracy_arr[-1]} \t Test Accuracy: {"%.4f"%test_accuracy_arr[-1]}')
 
-torch.save(model.state_dict(), f'save_{epoch}.pth')
+torch.save(model.state_dict(), 'save.pth')
+save_training_process()
+
 print("Done")

@@ -1,17 +1,17 @@
 Device: cuda:0
 ------------------------------
-Epoch:  0 -> 	 Train Loss: 1.2072087708 	 Test Loss: 1.4775520762 | Train Accuracy: 0.6040 	 Test Accuracy: 0.4514
-Epoch:  1 -> 	 Train Loss: 0.7890824330 	 Test Loss: 1.1866587420 | Train Accuracy: 0.7354 	 Test Accuracy: 0.5878
-Epoch:  2 -> 	 Train Loss: 0.6340612006 	 Test Loss: 0.7718412807 | Train Accuracy: 0.7881 	 Test Accuracy: 0.7222
-Epoch:  3 -> 	 Train Loss: 0.5853755385 	 Test Loss: 0.6669342423 | Train Accuracy: 0.8042 	 Test Accuracy: 0.7865
-Epoch:  4 -> 	 Train Loss: 0.4991159915 	 Test Loss: 0.6789842665 | Train Accuracy: 0.8318 	 Test Accuracy: 0.7649
-Epoch:  5 -> 	 Train Loss: 0.5082673806 	 Test Loss: 0.7605863521 | Train Accuracy: 0.8291 	 Test Accuracy: 0.7372
-Epoch:  6 -> 	 Train Loss: 0.4501457757 	 Test Loss: 0.6606555065 | Train Accuracy: 0.8545 	 Test Accuracy: 0.7309
-Epoch:  7 -> 	 Train Loss: 0.4335844792 	 Test Loss: 0.6564326905 | Train Accuracy: 0.8512 	 Test Accuracy: 0.7670
-Epoch:  8 -> 	 Train Loss: 0.4613679987 	 Test Loss: 0.5719603628 | Train Accuracy: 0.8487 	 Test Accuracy: 0.8069
-Epoch:  9 -> 	 Train Loss: 0.4060316138 	 Test Loss: 0.7183778036 | Train Accuracy: 0.8648 	 Test Accuracy: 0.7872
-Epoch: 10 -> 	 Train Loss: 0.4005940729 	 Test Loss: 0.7208412583 | Train Accuracy: 0.8665 	 Test Accuracy: 0.7556
-Epoch: 11 -> 	 Train Loss: 0.3706271400 	 Test Loss: 0.7608378507 | Train Accuracy: 0.8800 	 Test Accuracy: 0.7729
-Epoch: 12 -> 	 Train Loss: 0.3726452018 	 Test Loss: 0.5545814715 | Train Accuracy: 0.8724 	 Test Accuracy: 0.8330
-Epoch: 13 -> 	 Train Loss: 0.3234309835 	 Test Loss: 0.5287443524 | Train Accuracy: 0.8910 	 Test Accuracy: 0.8347
-Epoch: 14 -> 	 Train Loss: 0.3625598708 	 Test Loss: 0.7836315374 | Train Accuracy: 0.8802 	 Test Accuracy: 0.7899
+Epoch:  0 -> 	 Train Loss: 1.2065491338 	 Test Loss: 1.0846848925 | Train Accuracy: 0.6080 	 Test Accuracy: 0.6316
+Epoch:  1 -> 	 Train Loss: 0.7381489685 	 Test Loss: 0.8019388924 | Train Accuracy: 0.7668 	 Test Accuracy: 0.7184
+Epoch:  2 -> 	 Train Loss: 0.6039948865 	 Test Loss: 1.0076630582 | Train Accuracy: 0.8046 	 Test Accuracy: 0.6816
+Epoch:  3 -> 	 Train Loss: 0.5376039368 	 Test Loss: 0.9054521461 | Train Accuracy: 0.8212 	 Test Accuracy: 0.7198
+Epoch:  4 -> 	 Train Loss: 0.4831171737 	 Test Loss: 0.7925156265 | Train Accuracy: 0.8409 	 Test Accuracy: 0.7378
+Epoch:  5 -> 	 Train Loss: 0.4678589910 	 Test Loss: 0.5715023617 | Train Accuracy: 0.8474 	 Test Accuracy: 0.8049
+Epoch:  6 -> 	 Train Loss: 0.4228260442 	 Test Loss: 0.5889600267 | Train Accuracy: 0.8582 	 Test Accuracy: 0.8118
+Epoch:  7 -> 	 Train Loss: 0.3998941048 	 Test Loss: 0.6584349771 | Train Accuracy: 0.8725 	 Test Accuracy: 0.7681
+Epoch:  8 -> 	 Train Loss: 0.3862822893 	 Test Loss: 0.4644962375 | Train Accuracy: 0.8728 	 Test Accuracy: 0.8503
+Epoch:  9 -> 	 Train Loss: 0.3755439870 	 Test Loss: 0.7051820288 | Train Accuracy: 0.8764 	 Test Accuracy: 0.7684
+Epoch: 10 -> 	 Train Loss: 0.3706272580 	 Test Loss: 0.5049908236 | Train Accuracy: 0.8788 	 Test Accuracy: 0.8326
+Epoch: 11 -> 	 Train Loss: 0.3438525891 	 Test Loss: 0.5700876641 | Train Accuracy: 0.8876 	 Test Accuracy: 0.8122
+Epoch: 12 -> 	 Train Loss: 0.3266573225 	 Test Loss: 0.4210952908 | Train Accuracy: 0.8990 	 Test Accuracy: 0.8514
+Epoch: 13 -> 	 Train Loss: 0.3197112562 	 Test Loss: 0.4843727226 | Train Accuracy: 0.8969 	 Test Accuracy: 0.8497
+Epoch: 14 -> 	 Train Loss: 0.3006247887 	 Test Loss: 0.3312012578 | Train Accuracy: 0.9028 	 Test Accuracy: 0.8799

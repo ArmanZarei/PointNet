@@ -1,5 +1,8 @@
 path.py
 plotly
+scikit-learn
+matplotlib
+seaborn
 
 torchvision==0.10.0+cu102
 torchaudio===0.9.0
