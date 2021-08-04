@@ -18,7 +18,7 @@ After training the models for `15` epochs:
     </tr>
 </table>
 
-![Confusion Matrix](images/confusion_matrix.png)
+<img src='images/confusion_matrix.png' style="width: 50%"/>
 
 ![Training Process](images/training.png)
 
