@@ -1,4 +1,4 @@
-# PointNet Classification
+# PointNet Classification - PyTorch Implementation
 
 ## Results
 After training the models for `15` epochs:
